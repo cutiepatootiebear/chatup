@@ -1,0 +1,215 @@
+.hero {
+  font-family: "Roboto", Serif;
+  text-align: center;
+  min-height: 800px;
+  background-size: cover;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .hero h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    line-height: 40px; }
+  .hero.landscape {
+    color: white; }
+  .hero.bridge {
+    background-image: url("img/bridge/gallery-a.jpg");
+    width: 100%; }
+
+.sidebar-wrapper {
+  color: white;
+  font-family: "Roboto", Serif;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  z-index: 2;
+  position: fixed;
+  width: 0px;
+  height: 100%;
+  background: #000;
+  transition: all 0.5s ease; }
+  .sidebar-wrapper a {
+    color: white;
+    margin-left: 10px;
+    font-size: 24px; }
+  .sidebar-wrapper h2 {
+    padding: 0px;
+    margin: 4px;
+    font-size: 40px;
+    line-height: 40px; }
+  .sidebar-wrapper.open {
+    width: 320px !important; }
+
+.sidebar-links {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+#close-btn {
+  align-self: flex-start;
+  margin-left: 30px;
+  margin-top: 10px;
+  color: white;
+  cursor: pointer; }
+  #close-btn:hover {
+    opacity: .5; }
+  #close-btn img {
+    width: 30px;
+    height: 30px; }
+
+#hamburger {
+  display: flex;
+  cursor: pointer;
+  position: fixed;
+  height: 34px;
+  width: 40px;
+  left: 30px;
+  top: 20px;
+  z-index: 1;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px; }
+  #hamburger img {
+    width: 30px;
+    height: 30px; }
+  #hamburger:hover {
+    background: #00CFFF; }
+
+#intro h1, #intro h5 {
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25); }
+#intro h1 {
+  font-size: 72px;
+  line-height: 55px; }
+#intro h5 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700; }
+
+.cta {
+  background: black;
+  color: white;
+  padding: 0px;
+  width: 180px;
+  font-size: 18px;
+  line-height: 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+  .cta:hover {
+    background: #00CFFF; }
+
+#about {
+  min-height: 0; }
+
+.left-col {
+  color: #00E2AC;
+  padding: 20px;
+  text-transform: uppercase;
+  text-align: right; }
+  .left-col h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 55px; }
+
+.right-col {
+  text-align: left;
+  padding: 20px; }
+  .right-col h5 {
+    font-size: 24px;
+    line-height: 30px; }
+
+#gallery {
+  background-color: #EEFDF9; }
+  #gallery .container {
+    padding: 0;
+    margin: 0; }
+
+.col-md-4 {
+  overflow: hidden;
+  padding: 0 5px 10px 5px; }
+  .col-md-4 img {
+    height: 100%;
+    max-width: 390px;
+    max-height: 280px; }
+
+#contact {
+  text-align: center; }
+  #contact p {
+    text-align: center;
+    max-width: 740px;
+    margin-bottom: 40px;
+    font-size: 24px; }
+
+#social {
+  padding: 20px; }
+  #social a {
+    margin: 0 10px 0 10px;
+    text-decoration: none; }
+  #social img {
+    height: 20px; }
+    #social img:hover {
+      opacity: .5; }
+
+#footer {
+  height: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  padding-bottom: 150px;
+  align-items: center;
+  display: flex;
+  flex-direction: row; }
+  #footer .footer-item {
+    max-width: 100px;
+    text-align: left; }
+  #footer a {
+    margin-right: 20px;
+    margin-left: 5px;
+    padding: 0px;
+    font-size: 16px;
+    line-height: 40px;
+    color: black; }
+
+#copyright {
+  margin-left: auto;
+  color: #00E2AC;
+  text-align: right; }
+  #copyright span {
+    display: flex;
+    justify-content: flex-end; }
+
+@media only screen and (max-width: 480px) {
+  #intro {
+    min-height: 640px; }
+
+  .left-col h2 {
+    font-size: 42px;
+    line-height: 40px; }
+
+  #footer {
+    margin-left: 20px;
+    margin-right: 20px; }
+    #footer h4 {
+      padding-right: 20px; } }
+@media only screen and (max-width: 992px) {
+  .row {
+    width: 100%; }
+
+  .col-md-4 {
+    width: 100%; }
+    .col-md-4 img {
+      width: 100%;
+      max-width: 992px;
+      max-height: 900px; } }
+
+/*# sourceMappingURL=main.css.map */
