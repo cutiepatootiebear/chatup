@@ -61,7 +61,7 @@ function loadImage(conditions) {
         }
     }
 
-    imageSRC = imageSRC + conditions + '-' + timeOfDay + '.jpg';
+    imageSRC = imageSRC + conditions + '-' + timeOfDay + '.JPG';
     $('#intro').css('background-image', 'url(' + imageSRC + ')');
 }
 
