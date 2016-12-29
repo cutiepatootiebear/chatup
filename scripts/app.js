@@ -30,7 +30,7 @@ function getWeather() {
         }
     });
 }
-
+    
 function getTimeOfDay() {
     var time = new Date();
     var hours = time.getHours();
